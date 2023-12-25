@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card01 {
+  height: 10vh;
+  background-color: rgb(31, 29, 21);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card02 {
+  height: 80vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card03 {
+  height: 10vh;
+  background-color: rgb(31, 29, 21);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card10 {
+  height: 80vh;
+
+  width: 50%;
+}
+
+.botton {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: white;
+  padding: 10px;
+  color: blue;
+  border-radius: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  box-shadow: 0 9px #999;
+  border: none;
+  cursor: pointer;
+}
+.botton:hover {
+  background-color: #e6e352;
+}
+.botton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.display1 {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(233, 224, 184);
+}
+.imgg {
+  width: 550px;
+}
+.imggseyi {
+  width: 400px;
+}
+.heading {
+  width: 30px;
+}
+.heading2 {
+  width: 350px;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.display2 {
+  height: 20vh;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(31, 29, 21);
+}
+.display3 {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.display4 {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.display5 {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.display6 {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card20 {
+  height: 80vh;
+  width: 50%;
+  background-color: rgb(159, 204, 230);
+}
+
+@media screen and (max-width: 680px) {
+  .card01 {
+    height: 10vh;
+    background-color: rgb(31, 29, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card02 {
+    height: 80vh;
+
+    display: block;
+  }
+  .card03 {
+    height: 10vh;
+    background-color: rgb(31, 29, 21);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .footer {
+    color: white;
+  }
+  .card10 {
+    height: 40vh;
+
+    width: 100%;
+  }
+  .heading {
+    width: 50px;
+  }
+  .heading2 {
+    width: 350px;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .imgg {
+    width: 400px;
+  }
+  .display1 {
+    height: 30vh;
+    background-color: rgb(233, 224, 184);
+  }
+  .display2 {
+    height: 10vh;
+    background-color: rgb(31, 29, 21);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .botton {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    color: blue;
+    border-radius: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    box-shadow: 0 9px #999;
+    border: none;
+    cursor: pointer;
+  }
+  .botton:hover {
+    background-color: #e6e352;
+  }
+  .botton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .display3 {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .display4 {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .display5 {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .display6 {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card20 {
+    height: 40vh;
+
+    width: 100%;
+  }
+}
